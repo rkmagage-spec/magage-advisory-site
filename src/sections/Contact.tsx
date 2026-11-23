@@ -61,15 +61,15 @@ export function Contact() {
             <li className="flex items-center gap-3">
               <Mail className="h-4 w-4 shrink-0 text-brass" aria-hidden="true" />
               <a
-                href="mailto:hello@magageadvisory.co.za"
+                href="mailto:hello@rvmconsulting.co.za"
                 className="text-sm font-medium text-foreground underline-offset-4 transition-colors hover:text-brass hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
               >
-                hello@magageadvisory.co.za
+                hello@rvmconsulting.co.za
               </a>
             </li>
             <li className="flex items-center gap-3">
               <MapPin className="h-4 w-4 shrink-0 text-brass" aria-hidden="true" />
-              <span className="text-sm text-muted-foreground">Sandton, Johannesburg — by appointment</span>
+              <span className="text-sm text-muted-foreground">Kimberley, Northern Cape — by appointment</span>
             </li>
           </ul>
         </Reveal>

@@ -10,12 +10,12 @@ module.exports = {
       },
       colors: {
         ink: {
-          DEFAULT: "hsl(162 22% 14%)",
-          deep: "hsl(162 24% 10%)",
+          DEFAULT: "hsl(224 50% 18%)",
+          deep: "hsl(226 55% 12%)",
         },
         brass: {
-          DEFAULT: "hsl(38 52% 42%)",
-          light: "hsl(38 55% 55%)",
+          DEFAULT: "hsl(41 75% 38%)",
+          light: "hsl(41 75% 60%)",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

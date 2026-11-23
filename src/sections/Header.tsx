@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Menu } from 'lucide-react'
 import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetTitle } from '@/components/ui/sheet'
+import logo from '@/assets/rvm-logo'
 
 const NAV = [
   { label: 'Services', href: '#services' },
@@ -15,8 +16,11 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/75">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:px-8">
-        <a href="#top" className="font-display text-lg font-semibold tracking-tight text-foreground">
-          Magage&nbsp;<span className="text-brass">Advisory</span>
+        <a href="#top" className="flex items-center gap-3">
+          <img src={logo} alt="" className="h-9 w-9" />
+          <span className="font-display text-lg font-semibold tracking-tight text-foreground">
+            RVM&nbsp;<span className="text-brass">Consulting</span>
+          </span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
@@ -48,7 +52,7 @@ export function Header() {
             </button>
           </SheetTrigger>
           <SheetContent side="right" className="w-72 bg-background">
-            <SheetTitle className="font-display text-lg font-semibold">Magage Advisory</SheetTitle>
+            <SheetTitle className="font-display text-lg font-semibold">RVM Consulting</SheetTitle>
             <nav className="mt-8 flex flex-col gap-1" aria-label="Mobile">
               {NAV.map((item) => (
                 <SheetClose asChild key={item.href}>

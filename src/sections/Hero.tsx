@@ -13,7 +13,7 @@ export function Hero() {
       <div className="mx-auto grid max-w-6xl gap-12 px-5 pb-16 pt-16 md:grid-cols-[1.25fr_1fr] md:gap-16 md:px-8 md:pb-24 md:pt-24">
         <Reveal>
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-brass">
-            Independent corporate finance · Johannesburg
+            Independent corporate finance · Kimberley
           </p>
           <h1 className="mt-6 font-display text-5xl font-medium leading-[1.05] tracking-tight text-foreground md:text-7xl">
             Clarity in
@@ -21,7 +21,7 @@ export function Hero() {
             every <span className="italic text-brass">number.</span>
           </h1>
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            Magage Advisory helps founders, boards and investors make confident financial
+            RVM Consulting helps founders, boards and investors make confident financial
             decisions — from capital raises and acquisitions to the models and reporting that
             run the business between them.
           </p>

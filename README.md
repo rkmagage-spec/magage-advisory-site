@@ -1,7 +1,7 @@
-# Magage Advisory — landing page
+# RVM Consulting — landing page
 
-A single-page marketing site for Magage Advisory, an independent corporate finance and
-consulting practice based in Johannesburg.
+A single-page marketing site for RVM Consulting (Pty) Ltd, an independent corporate finance
+and consulting practice based in Kimberley, Northern Cape.
 
 ## Stack
 
@@ -18,6 +18,7 @@ src/
   sections/             Header, Hero, Services, Approach, Results, About, Contact, Footer
   hooks/useReveal.tsx   IntersectionObserver-based scroll reveal
   components/ui/        shadcn/ui primitives
+  assets/rvm-logo.ts    Brand logo inlined as a data URI (keeps the repo text-only)
 ```
 
 ## Develop
@@ -41,3 +42,5 @@ The built site is fully static and can be hosted on any static host
 - The contact form is client-side only (validation + confirmation state); wire it to an
   email/API endpoint before production use.
 - Figures and testimonial shown are illustrative placeholders.
+- Company details: RVM Consulting (Pty) Ltd, CIPC reg. no. 2013/100264/07,
+  registered office Kimberley, Northern Cape.
