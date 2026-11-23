@@ -17,7 +17,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur supports-[backdrop-filter]:bg-background/75">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:px-8">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logo} alt="" className="h-9 w-9" />
+          <img src={logo} alt="" className="h-9 w-9 border border-border" />
           <span className="font-display text-lg font-semibold tracking-tight text-foreground">
             RVM&nbsp;<span className="text-brass">Consulting</span>
           </span>
@@ -45,7 +45,7 @@ export function Header() {
           <SheetTrigger asChild>
             <button
               type="button"
-              className="inline-flex h-11 w-11 items-center justify-center text-foreground transition-colors hover:bg-secondary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring md:hidden"
+              className="inline-flex h-11 w-11 items-center justify-center text-foreground transition-colors hover:bg-secondary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:hidden"
               aria-label="Open menu"
             >
               <Menu className="h-5 w-5" />
