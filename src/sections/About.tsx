@@ -33,7 +33,7 @@ export function About() {
             {[
               { k: 'Registered office', v: 'Kimberley, Northern Cape' },
               { k: 'Working across', v: 'South Africa' },
-              { k: 'Sectors', v: 'Retail · Industrials · Financial services' },
+              { k: 'Sectors', v: 'Infrastructure · Mining' },
             ].map((item) => (
               <div key={item.k} className="bg-background px-5 py-5">
                 <dt className="text-xs font-semibold uppercase tracking-[0.14em] text-muted-foreground">
